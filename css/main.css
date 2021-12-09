@@ -379,7 +379,8 @@ header .badges .badge {
 }
 .notice .notice-line .inner__left .swiper-container {
     height: 62px;
-    flex-grow: 1; /* 공지 text부분이 최대한 늘어나는 구조를 만들기위해 추가 */
+    overflow: hidden;
+    flex-grow: 1; 
 
 }
 .notice .notice-line .inner__left .swiper-slide {
@@ -807,6 +808,7 @@ header .badges .badge {
 .awards .swiper-container {
     width: 100%;
     height: 40px;
+    overflow: hidden;
 }
 /* 다중선택자로 이전,다음버튼 선택자 생성.(공통스타일 정의해줄것)*/
 .awards .swiper-prev,
